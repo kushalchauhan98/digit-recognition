@@ -1,7 +1,8 @@
- # digit-recognition
-A demonstration of Neural Network and Support Vector Machine based classifier for digit recognition on the MNIST database.
+# digit-recognition
+A demonstration of Neural Network and Support Vector Machine based classifier for digit recognition on the MNIST database using Octave.
 
 Neural Network : A Neural Network with 2 hidden layers was used yeilding a classification accuracy of 96.5%.
+
 Support Vector Machine : Support Vector Machine with Radial Basis Function Kernel was used to achieve a classification accuracy of 98%.
 
 I have loaded a binary file "train" containing the following variables:
