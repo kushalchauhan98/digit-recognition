@@ -1,3 +1,4 @@
+
 # digit-recognition
 A demonstration of Neural Network and Support Vector Machine based classifier for digit recognition on the MNIST database using Octave.
 
@@ -17,3 +18,6 @@ I have loaded a binary file "train" containing the following variables:
 I haven't uploaded the "train" file for it is too big in size. You can create this file on your own using the MNIST data.
 
 The number of hidden units in the hidden layers(in case of the Neural Network Classifier) and the values of gamma and C(in case of the Support Vector Machine Classifier) were decided after many runs of the program with different values, and the value which minimised the Cross Validation Set error was chosen.
+
+The classifier predictions were submitted on Kaggle.
+https://www.kaggle.com/kushalchauhan98
