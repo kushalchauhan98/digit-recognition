@@ -1,0 +1,15 @@
+Th run the scripts, you need to download and install Octave - https://www.gnu.org/software/octave/
+
+An additional library in Octave namely "libsvm" was used in Support Vector Machine Classifier. 
+You can download it from here - https://www.csie.ntu.edu.tw/~cjlin/libsvm/
+
+The binary file "train" has to be created which contains the variables required. You can create it using the MNIST dataset. 
+You can download the MNIST dataset from here - http://yann.lecun.com/exdb/mnist/
+
+The "train" file can be created in the following way (you should have some knowlwdge of Octave):
+
+1.  Read the images using imread() to get matrices.
+2.  Convert the matrix into a single row of data (using reshape()).
+3.  Store 60% of the data in X, 20% in Xval, and the remaining 20% in Xtest.
+4.  Do the same for the labels.
+5.  Save the variables in "train".
